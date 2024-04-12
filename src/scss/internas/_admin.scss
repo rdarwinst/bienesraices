@@ -1,0 +1,65 @@
+.alerta {
+    padding: .5rem;
+    text-align: center;
+    color: $blanco;
+    font-weight: $bold;
+    text-transform: uppercase;
+    margin: 1rem 0;
+
+    &.exito {
+        background-color: $verde;
+    }
+}
+
+table.propiedades, table.vendedores, table.entradas {
+    margin-top: 4rem;
+    width: 100%;
+    border-spacing: 0;
+
+    thead {
+        background-color: $verde;
+        
+        th {
+            color: $blanco;
+            padding: 1rem;
+            text-align: center;
+            font-size: 2rem;
+            text-transform: capitalize;
+            font-weight: $black;
+        }
+    }
+
+    tbody {
+        tr {
+            text-align: center;
+            padding: 1rem;
+            font-size: 2rem;                      
+        }
+    }
+
+    .imagen-tabla {
+        width: 10rem;
+    }
+    a[href^="tel"], a[href^="mailto"] {
+        color: $negro;
+    }
+}
+.imagen-sm {
+    width: 20rem;
+    height: 15rem;
+    object-fit: cover;
+    transition: all .5s ease-out;
+}
+.imagen-sm:hover {
+    cursor:crosshair;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.tabla-responsive {
+    width: 100%;
+    overflow-x: auto;
+}
+.opacidad-50 {
+    opacity: 50%;
+}

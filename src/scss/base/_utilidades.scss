@@ -1,0 +1,29 @@
+.seccion {
+    margin-top: calc($separacion / 2);
+    margin-bottom: calc($separacion / 2);
+}
+.contenido-centrado {
+    max-width: 80rem;
+}
+.alinear-derecha {
+    display: flex;
+    justify-content: flex-end;
+}
+.w-100 {
+    width: 100%;
+}
+.justificar-texto {
+    text-align: justify;
+}
+.centrar-texto {
+    text-align: center;
+}
+.no-margin {
+    margin: 0;
+}
+.no-padding {
+    padding: 0;
+}
+.hidden {
+    display: none;
+}
