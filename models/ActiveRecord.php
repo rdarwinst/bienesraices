@@ -44,7 +44,7 @@ class ActiveRecord
 
         // Mensaje de exito o error
         if ($resultado) {
-            header('Location: /admin?resultado=1');
+            header('Location: ' . REDIRECT_URL . '/admin?resultado=1');
         }
     }
 
@@ -65,7 +65,7 @@ class ActiveRecord
         $resultado = self::$db->query($query);
 
         if ($resultado) {
-            header('Location: /admin?resultado=2');
+            header('Location: ' . REDIRECT_URL . '/admin?resultado=2');
         }
     }
 
@@ -78,7 +78,7 @@ class ActiveRecord
 
         if ($resultado) {
             $this->borrarImagen();
-            header('location: /admin?resultado=3');
+            header('Location: ' . REDIRECT_URL . '/admin?resultado=3');
         }
     }
 

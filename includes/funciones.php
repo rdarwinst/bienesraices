@@ -5,6 +5,7 @@ declare(strict_types=1);
 define('TEMPLATES_URL', __DIR__ . '/templates');
 define('FUNCTIONS_URL', __DIR__ . 'funciones.php');
 define('CARPETA_IMAGENES',  $_SERVER['DOCUMENT_ROOT'] . '/imagenes/');
+define('REDIRECT_URL', 'http://' . $_SERVER['HTTP_HOST']);
 
 function incluirTemplate(string $nombre, bool $inicio = false)
 {
