@@ -3,3 +3,4 @@ vendor
 public/imagenes
 public/build
 includes/config
+usuario.php

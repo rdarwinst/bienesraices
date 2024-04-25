@@ -14,12 +14,14 @@
 <fieldset>
     <legend>Información de Contacto</legend>
 
-    <label for="telefono">telefono</label>
+    
     <div class="campo">
+        <label for="telefono">Telefono</label>
         <input type="tel" name="vendedor[telefono]" id="telefono" placeholder="Ingrese el teléfono del vendedor." value="<?php echo sanitizarHTML($vendedor->telefono); ?>">
     </div>
 
     <div class="campo">
+        <label for="email">Email</label>
         <input type="email" name="vendedor[email]" id="email" placeholder="Ingrese el email del vendedor" value="<?php echo sanitizarHTML($vendedor->email); ?>">
     </div>
 </fieldset>
